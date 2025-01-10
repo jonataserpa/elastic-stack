@@ -1,6 +1,8 @@
 ## ELASTIC STACK
 
-Commands:
+### Commands:
+
+```bash
     - sudo chown -R 1000:1000 ./elasticsearch_data
     - sudo chmod -R 770 ./elasticsearch_data
     - chmod go-w ./beats/metric/metricbeat.yml
@@ -9,3 +11,4 @@ Commands:
     - sudo chown 1000:1000 ./beats/heartbeat/heartbeat.yml
     - chmod go-w ./apm/apm-server.yml
     - sudo chown 1000:1000 ./apm/apm-server.yml
+```
